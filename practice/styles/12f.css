@@ -1,0 +1,51 @@
+p {
+  font-family: Arial;
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+.texts {
+  margin-left: 15px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.bio, .details {
+  color: gray;
+}
+
+.details {
+  font-size: 12px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dp {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.follow-button {
+  font-family: Arial;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  background-color: blue;
+  border-radius: 7px;
+  border: 0;
+  font-weight: bold;
+}

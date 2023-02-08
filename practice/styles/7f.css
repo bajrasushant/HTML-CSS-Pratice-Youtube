@@ -1,0 +1,40 @@
+p {
+  color: rgb(100, 100, 100);
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.email-box {
+  font-size: 15px;
+  width: 350px;
+  border-width: 2px;
+  border-color: rgb(100, 100, 100);
+  border-style: solid;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.terms {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.agree {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(10, 102, 194);
+  border-radius: 75px;
+  color: white;
+}

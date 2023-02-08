@@ -1,0 +1,63 @@
+.left-left-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(126, 123, 123);
+  width: 80px;
+}
+
+.left-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 80px;
+  background-color: lightgrey;
+  width: 150px;
+  font-family: Arial;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.dp {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px; 
+  margin-bottom: 10px;
+}
+
+.top-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info {
+  font-weight: bold;
+  color: white;
+}
+
+.add {
+  background-color: lightgrey;
+  color: white;
+  font-size: 23px;
+  border: none;
+  margin-right: 3px;
+}
+
+.channels {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-name {
+  margin-bottom: 6px;
+  color: white;
+  margin-left: 12px;
+}
